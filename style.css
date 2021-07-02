@@ -58,6 +58,7 @@ h3 {
     text-align: left;
     width: 45%;
     line-height: 30px;
+    margin-right: 2em;
 }
 #bio figure img {
     border: 1px solid grey;
@@ -81,6 +82,10 @@ h3 {
     text-align: left;
     max-width: 60%;
     line-height: 30px;
+}
+#repos figure figcaption h4 {
+    font-style: italic;
+    text-decoration: overline;
 }
 #repos figure img {
     max-width: 410px;
