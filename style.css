@@ -14,6 +14,8 @@ body {
 h1 {
     font-weight: 800;
     margin-bottom: 0;
+    text-shadow: 2px 2px 4px#c7c7c7;
+    letter-spacing: 2px;
 }
 h2 {
     font-weight: 700;
@@ -43,6 +45,7 @@ h3 {
 #header nav ul li{ 
     list-style: none;
     display: inline-block;
+    font-size: 1.4em;
 }
 #bio, #repos {
     border-bottom: 1px solid #E6E6E6;
@@ -73,15 +76,18 @@ h3 {
     justify-content: center;
 }
 #repos h2 {
+    color: #00184e;
     display: block;
     margin: auto;
-    max-width: 85%;
+    max-width: 95%;
     text-align: left;
+    text-shadow: 2px 2px 4px#c7c7c7;
 }
 #repos figure figcaption {
     text-align: left;
     max-width: 60%;
     line-height: 30px;
+    margin-left: 1.5em;
 }
 #repos figure figcaption h4 {
     font-style: italic;
